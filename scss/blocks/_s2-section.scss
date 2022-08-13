@@ -1,0 +1,136 @@
+.s2 {
+    padding: 150px 0 80px 0;
+    &::before {
+        display: inline-block;
+        width: 150px;
+        height: 1px;
+        margin-bottom: 63px;
+        background-color: #C396C6;
+        content: "";
+    }
+}
+.s2__title {
+    margin-bottom: 95px;
+    font-family: "DM Serif Display";
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #2C2830;    
+}
+.s2__list {
+    display: flex;
+
+}
+.s2__items {
+    max-width: 350px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+    &::before {
+        display: inline-block;
+        width: 86px;
+        height: 86px;
+        margin-bottom: 32px;
+        background-image: url("../images/snapy.svg");
+        background-repeat: no-repeat;
+        content: "";
+    }
+    &:nth-child(2)::before {
+        background-image: url("../images/afordable.svg");
+    }
+    &:nth-child(3)::before {
+        background-image: url("../images/people.svg");
+    }
+}
+.s2__h3 {
+    margin-bottom: 16px;
+    font-family: "DM Serif Display";
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -0.388889px;
+    color: #2C2830;    
+}
+.s2__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #837D88;    
+}
+
+
+@media only screen and (max-width: 750px) {
+    .s2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 150px 0 80px 0;
+        &::before {
+            display: inline-block;
+            width: 150px;
+            height: 1px;
+            margin-bottom: 63px;
+            background-color: #C396C6;
+            content: "";
+        }
+    }
+    .s2__title {
+        margin-bottom: 95px;
+        font-family: "DM Serif Display";
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -0.666667px;
+        color: #2C2830;    
+    }
+    .s2__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .s2__items {
+        max-width: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &:not(:last-child) {
+            margin-right: 0px;
+            margin-bottom: 56px;
+        }
+        &::before {
+            display: inline-block;
+            width: 86px;
+            height: 86px;
+            margin-bottom: 32px;
+            background-image: url("../images/snapy.svg");
+            background-repeat: no-repeat;
+            content: "";
+        }
+        &:nth-child(2)::before {
+            background-image: url("../images/afordable.svg");
+        }
+        &:nth-child(3)::before {
+            background-image: url("../images/people.svg");
+        }
+    }
+    .s2__h3 {
+        margin-bottom: 16px;
+        font-family: "DM Serif Display";
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        letter-spacing: -0.388889px;
+        text-align: center;
+        color: #2C2830;    
+    }
+    .s2__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #837D88;    
+    }
+
+
+}

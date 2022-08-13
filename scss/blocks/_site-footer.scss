@@ -1,0 +1,103 @@
+.site-footer {
+
+    background-image: url("../images/top.png");
+    background-size: 698px 650px;
+    background-position: calc(50% - 557px) calc(50% - 316px);
+    background-repeat: no-repeat;
+    background-color: #FAFAFA
+}
+.site-footer__box {
+    padding: 65px 0;
+
+}
+.site-footer__logo-icons-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 36px;
+}
+.site-footer__icons-box {
+
+}
+.site-footer__icons-link {
+    text-decoration: none;
+    &:not(:last-child) {
+        margin-right: 16px;
+    }
+}
+.site-footer__icons-img {
+    color: #837D88;
+}
+.site-footer__end-big-box {
+    display: flex;
+
+}
+.site-footer__list {
+    width: 255px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+.site-footer__items-start {
+    margin: 40px 0 36px 0;
+}
+.site-footer__items-start-words {
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    color: #837D88;    
+}
+.site-footer__items {
+    margin-bottom: 16px;
+}
+.site-footer__link {
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    color: #2D2641;
+}
+
+@media only screen and (max-width: 650px) {
+    .site-footer__box {
+    }
+    .site-footer__logo-icons-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 36px;
+    }
+    .site-footer__icons-box {
+        margin-top: 35px;
+    }
+    .site-footer__end-big-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .site-footer__list {
+        width: 150px;
+        &:not(:last-child) {
+            margin-right: 0px;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .site-footer__end-big-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .site-footer__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .site-footer__items {
+        margin: 0 0 16px 0;
+    }
+}
