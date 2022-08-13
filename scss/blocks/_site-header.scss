@@ -32,6 +32,9 @@
     letter-spacing: 1.5px; 
     color: #837D88;    
     text-decoration: none;
+    &:hover {
+        color: #2C2830;
+    }
 }
 .site-header__button {
     padding: 13px 28px;
@@ -43,6 +46,10 @@
     color: #2C2830;
     background-color: #FFFFFF;
     border: 1.5px solid #2C2830;
+    &:hover {
+        color: #fff;
+        background-color: #2C2830;
+    }
 }
 .site-header__hamburger-button {
     display: none;

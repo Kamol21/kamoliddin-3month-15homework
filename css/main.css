@@ -136,6 +136,9 @@ body {
   color: #837D88;
   text-decoration: none;
 }
+.site-header__links:hover {
+  color: #2C2830;
+}
 
 .site-header__button {
   padding: 13px 28px;
@@ -147,6 +150,10 @@ body {
   color: #2C2830;
   background-color: #FFFFFF;
   border: 1.5px solid #2C2830;
+}
+.site-header__button:hover {
+  color: #fff;
+  background-color: #2C2830;
 }
 
 .site-header__hamburger-button {
@@ -321,6 +328,10 @@ body {
   text-decoration: none;
   color: #FFFFFF;
   border: 1.5px solid #FFFFFF;
+}
+.hero-section__button:hover {
+  color: #2C2830;
+  background-color: #fff;
 }
 
 .hero-section__img1 {
@@ -770,6 +781,10 @@ body {
   color: #FFFFFF;
   border: 1.5px solid #fff;
 }
+.article-box__button:hover {
+  color: #2C2830;
+  background-color: #fff;
+}
 
 @media only screen and (max-width: 720px) {
   .article-box {
@@ -831,6 +846,9 @@ body {
 .site-footer__icons-img {
   color: #837D88;
 }
+.site-footer__icons-img:hover {
+  color: #2C2830;
+}
 
 .site-footer__end-big-box {
   display: -webkit-box;
@@ -866,6 +884,9 @@ body {
   letter-spacing: 1.5px;
   text-decoration: none;
   color: #2D2641;
+}
+.site-footer__link:hover {
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 650px) {

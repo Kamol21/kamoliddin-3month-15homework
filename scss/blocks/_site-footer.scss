@@ -27,6 +27,9 @@
 }
 .site-footer__icons-img {
     color: #837D88;
+    &:hover {
+        color: #2C2830;
+    }
 }
 .site-footer__end-big-box {
     display: flex;
@@ -56,6 +59,9 @@
     letter-spacing: 1.5px;
     text-decoration: none;
     color: #2D2641;
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 @media only screen and (max-width: 650px) {
